@@ -1,4 +1,4 @@
-clss SessionsController < ApplicationController
+class SessionsController < ApplicationController
 
   def index
     if current_user
